@@ -246,7 +246,94 @@ header p {
   flex-wrap: wrap;
 }
 
+.service {
+  margin: 0 3.7% 14px 0;
+  padding: 20px;
+  padding-bottom: 22px;
+  background: #fff;
+  flex-basis: 27.3%;
+}
 
+.services li:nth-child(3),
+.services li:nth-child(6) { margin: 0 0 14px 0;}
+
+.serve-head { border-bottom: 5px solid #efefef ;}
+
+.serve-head a {
+  padding: 20px 0 18px;
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+.serve-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.serve-body h4 {
+  margin: 25px 0 27px;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.serve-body span {
+  margin-bottom: 24px;
+  color: var(--secondary-color);
+  font-size: 18px;
+}
+
+.serve-body a {
+  font-size: 18px;
+  color: var(--primary-color);
+  text-transform: capitalize;
+}
+
+.skills { display: flex;}
+
+.skills-info { 
+  margin-right: 5%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.skill-set {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 51%;
+}
+
+.skills-info p:first-of-type {
+  margin-bottom: 20px;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;  
+}
+
+.skills-info p:last-of-type {
+  color: var(--secondary-color);
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+}
+
+.skill-set li {
+  padding: 12px 0 14px; 
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  text-transform: capitalize;  
+  border-bottom: 7px solid black;
+}
+
+.skill-set li span:last-of-type {
+  font-size: 16px;
+}
 
 /*=================================
   quality services styling ends here
