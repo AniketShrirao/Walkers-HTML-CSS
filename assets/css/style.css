@@ -155,9 +155,7 @@ header p {
   about us styling starts here
 =================================*/
 
-.about-us {
-  padding: 104px 0 80px;
-}
+.about-us { padding: 104px 0 80px;}
 
 .about-us h3 {
   margin-bottom: 73px;
@@ -200,10 +198,7 @@ header p {
   line-height: 1.4;
 }
 
-.about p span {
-  color: var(--primary-color) ;
-}
-
+.about p span { color: var(--primary-color);}
 
 /*=================================
   about us styling ends here
@@ -213,8 +208,43 @@ header p {
   quality services styling starts here
 =================================*/
 
+.quality-services { 
+  padding: 60px 0;
+  background-color: #efefef;
+}
 
+.quality-services h3 {
+  margin-bottom: 73px;
+  font-size: 34px;
+  font-weight: 700;
+  position: relative;
+  text-transform: capitalize;
+}
 
+.quality-services h3::before,
+.quality-services h3::after {
+  content: '';
+  height: 5px;
+  background: var(--primary-color);
+  position: absolute;
+}
+
+.quality-services h3::before {
+  width: 4%;
+  top: 140%;
+}
+
+.quality-services h3::after {
+  width: 2.5%;
+  top: 119%;
+  left: 0;
+}
+
+.services {
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 
 
