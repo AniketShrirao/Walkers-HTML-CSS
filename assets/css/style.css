@@ -341,7 +341,7 @@ header p {
   work styling starts here
 =================================*/
 
-.work { padding: 108px 0;}
+.work { padding: 108px 0 55px;}
 
 .work h3 {
   margin-bottom: 73px;
@@ -369,6 +369,7 @@ header p {
   top: 119%;
   left: 0;
 }
+
 .work ul { 
   display:flex;
   flex-wrap: wrap;
@@ -388,7 +389,32 @@ header p {
 =================================*/
 
 
+.support h3 {
+  margin-bottom: 73px;
+  font-size: 34px;
+  font-weight: 700;
+  position: relative;
+  text-transform: capitalize;
+}
 
+.support h3::before,
+.support h3::after {
+  content: '';
+  height: 5px;
+  background: var(--primary-color);
+  position: absolute;
+}
+
+.support h3::before {
+  width: 4%;
+  top: 140%;
+}
+
+.support h3::after {
+  width: 2.5%;
+  top: 119%;
+  left: 0;
+}
 
 
 
