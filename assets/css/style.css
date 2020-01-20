@@ -388,7 +388,6 @@ header p {
   support styling starts here
 =================================*/
 
-
 .support h3 {
   margin-bottom: 73px;
   font-size: 34px;
@@ -433,16 +432,13 @@ header p {
   text-transform: capitalize;
 }
 
-.support-devices li:first-of-type p{
-  margin-bottom: 44px;
-}
+.support-devices li:first-of-type p{ margin-bottom: 44px;}
 
 .support-devices p {
   color: var(--secondary-color);
   font-size: 18px;
   line-height: 1.5;
 }
-
 
 /*=================================
   support styling ends here
@@ -452,8 +448,36 @@ header p {
   Developer styling starts here
 =================================*/
 
+.developer {
+  padding-top: 90px;
+}
 
+.developer h3 {
+  margin-bottom: 73px;
+  font-size: 34px;
+  font-weight: 700;
+  position: relative;
+  text-transform: capitalize;
+}
 
+.developer h3::before,
+.developer h3::after {
+  content: '';
+  height: 5px;
+  background: var(--primary-color);
+  position: absolute;
+}
+
+.developer h3::before {
+  width: 4%;
+  top: 140%;
+}
+
+.developer h3::after {
+  width: 2.5%;
+  top: 119%;
+  left: 0;
+}
 
 
 
