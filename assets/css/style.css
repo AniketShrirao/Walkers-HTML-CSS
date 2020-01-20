@@ -107,8 +107,13 @@ li {
   Header styling starts here
 =================================*/
 
+.slide { display: none;}
 
-
+header {
+  background: url('https://via.placeholder.com/1351x649') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 
 
