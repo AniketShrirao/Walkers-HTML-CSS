@@ -343,8 +343,41 @@ header p {
 
 .work { padding: 108px 0;}
 
+.work h3 {
+  margin-bottom: 73px;
+  font-size: 34px;
+  font-weight: 700;
+  position: relative;
+  text-transform: capitalize;
+}
 
+.work h3::before,
+.work h3::after {
+  content: '';
+  height: 5px;
+  background: var(--primary-color);
+  position: absolute;
+}
 
+.work h3::before {
+  width: 4%;
+  top: 140%;
+}
+
+.work h3::after {
+  width: 2.5%;
+  top: 119%;
+  left: 0;
+}
+.work ul { 
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.work li { margin-bottom: 29px;}
+
+.work img { max-width: 388px;}
 
 /*=================================
   work styling ends here
