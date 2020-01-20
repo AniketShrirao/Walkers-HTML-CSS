@@ -331,9 +331,7 @@ header p {
   border-bottom: 7px solid black;
 }
 
-.skill-set li span:last-of-type {
-  font-size: 16px;
-}
+.skill-set li span:last-of-type { font-size: 16px;}
 
 /*=================================
   quality services styling ends here
@@ -343,7 +341,7 @@ header p {
   work styling starts here
 =================================*/
 
-
+.work { padding: 108px 0;}
 
 
 
