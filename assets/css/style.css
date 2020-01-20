@@ -584,7 +584,10 @@ get in touch styling ends here
   footer styling starts here
 =================================*/ 
 
+footer { 
+  background: #f3f3f3;
 
+}
 
 
 
