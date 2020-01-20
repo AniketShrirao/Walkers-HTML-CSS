@@ -115,7 +115,26 @@ header {
   background-position: center;
 }
 
+header h2 {
+  padding-top: 297px;
+  margin-bottom: 26px;
+  color: #fff;
+  font-size: 44px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
+header h2 span {
+  margin-left: 10px;
+  color: orangered;
+}
+
+header p {
+  padding-bottom: 262px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
 
 /*=================================
   Header styling ends here
