@@ -584,14 +584,13 @@ get in touch styling ends here
   footer styling starts here
 =================================*/ 
 
-footer { 
-  background: #f3f3f3;
+footer { background: #f3f3f3;}
 
+footer a {
+  color: #000;
+  font-size: 15px;
+  letter-spacing: 0.5px;
 }
-
-
-
-
 
  /*=================================
   footer styling ends here
