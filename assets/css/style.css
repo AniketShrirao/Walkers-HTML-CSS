@@ -543,6 +543,35 @@ header p {
   left: 0;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  width: 59.3%;
+}
+
+.form-group input { 
+  width: 100%;
+  padding: 13px 4px;
+  margin-bottom: 26px;
+  border:1px solid #000;
+  background: #f3f3f3;
+  color: var(--secondary-color);
+}
+
+form a {
+  margin-top: 2px;
+  margin-right: 42%;
+  padding: 14.5px 95px;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 12px;
+}
+
 /*=================================
 get in touch styling ends here
 =================================*/  
