@@ -114,35 +114,52 @@ li {
 =================================*/
 
 .slide {
-  width: 26.28%;
+  width: 25%;
   background: #fff;
-  position: fixed;
-  left: -26.30%;
-  height: 97.5%;
+  position: absolute;
+  left: -30%;
+  top: 0;
+  z-index: 1;
+  height: 100%;
 }
 
-.toggle { 
-  position: absolute;
-  right: 0;
+.slide-in {
+  left : 0;
+}
+
+.toggle {
   top: 85%;
+  left: 21.69%;
+  padding: 11px 16px;
+  width: 1%;
   text-indent: -9999px;
+  position: absolute;
+  z-index: 100;
 }
 
 .toggle::before {
-  padding: 11px 16px;
+  content: '\f0d9';
+  top: -2px;
+  padding: 11px 41%;
   background: var(--primary-color);
   color: #fff;
-  content: '\f0d9';
   font-family: FontAwesome;
   font-size: 20px;
   text-indent: 0;
   float: left;
+  cursor: pointer;
+  position: absolute;
+  z-index: 100;
+  left: 0;
 }
 
 nav ul {
   padding: 25px 13.48%;
+  display: -webkit-box;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
   text-align: left;
 }
 
@@ -230,7 +247,7 @@ header p {
   left: 0;
 }
 
-.about { display: flex;}
+.about { display: -webkit-box; display: flex;}
 
 .about figure {
   margin-right: 3.1%;
@@ -289,6 +306,7 @@ header p {
 
 .services {
   margin-bottom: 50px;
+  display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
 }
@@ -313,8 +331,11 @@ header p {
 }
 
 .serve-body {
+  display: -webkit-box;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
 }
 
 .serve-body h4 {
@@ -340,19 +361,25 @@ header p {
 
 .serve-body a:hover , .serve-head a:hover { color: var(--secondary-color);}
 
-.skills { display: flex;}
+.skills { display: -webkit-box; display: flex;}
 
 .skills-info { 
   margin-right: 5%;
   padding: 20px;
+  display: -webkit-box;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
   flex-basis: 50%;
 }
 
 .skill-set {
+  display: -webkit-box;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
   flex-basis: 51%;
 }
 
@@ -373,8 +400,10 @@ header p {
 .skill-set li {
   padding: 12px 0 14px; 
   color: var(--secondary-color);
+  display: -webkit-box;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
   font-size: 17px;
   letter-spacing: 0.8px;
   position: relative;
@@ -438,9 +467,11 @@ header p {
 }
 
 .work ul { 
+  display:-webkit-box; 
   display:flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
 }
 
 .work li { margin-bottom: 29px;}
@@ -448,8 +479,10 @@ header p {
 .work img { max-width: 388px;}
 
 .work img:hover {
+  -webkit-transition: all .7s ease;
   transition: all .7s ease;
-  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 /*=================================
@@ -492,14 +525,17 @@ header p {
   left: 0;
 }
 
-.supp { display: flex;}
+.supp { display: -webkit-box; display: flex;}
 
 .support-devices { 
   width: 47%;
   padding: 40px 0;
   margin-left: 3%;
+  display: -webkit-box;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
 }
 
 .support-devices h4 {
@@ -558,9 +594,11 @@ header p {
 }
 
 .team {
+  display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
   text-align: left;
 }
 
@@ -621,10 +659,15 @@ header p {
 }
 
 form {
+  display: -webkit-box;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 .form-group {
@@ -661,6 +704,7 @@ form a {
 form a:hover {
   background: #fff;
   color: var(--primary-color);
+  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
 
@@ -686,6 +730,7 @@ footer a {
 
 footer a:hover {
   color: var(--primary-color);
+  -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
 
